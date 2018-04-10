@@ -11,6 +11,8 @@ Clone the project and run the scripts for the demo. No database migrations are n
 ```bash
 git clone git@github.com:richardbishopme/floatrates-demo.git
 cd floatrates-demo && composer install
+cp .env.example .env
+php artisan key:generate
 php artisan serve
 ```
 
